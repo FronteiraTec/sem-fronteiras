@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Popping:200,300,400,500,600,700,800,900&display=swap");
+
+footer {
+    background-color: rgb(58, 58, 58);
+    margin-top: 2000px;
+    height: 300px;
+}
+
+.classeDoTexto {
+    width: 600px;
+}
+
+.classeDoTexto h1 {
+    color: #fffefe;
+    width: 600px;
+    padding-left: 60px;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17pt;
+}
+
+.RedesSociais {
+    width: 600px;
+    /* W = largura*/
+    height: 40px;
+    /* H = altura*/
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.RedesSociais ul li {
+    display: inline;
+    margin-left: 10px;
+
+}
+
+.faixinha {
+    background-image: linear-gradient(-90deg,
+            #1d43b5,
+            #00fff7);
+    width: 100%;
+    height: 5px;
+}
+
+.localizacao {
+    float: right;
+    padding-top: 0px;
+    padding-right: 40px;
+}
+
+.copy {
+    color: #fff;
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 300px;
+
+}
