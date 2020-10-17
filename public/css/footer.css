@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Popping:200,300,400,500,600,700,800,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 footer {
     background-color: rgb(58, 58, 58);
     margin-top: 2000px;
-    height: 300px;
+    height: 315px;
 }
 
 .classeDoTexto {
@@ -15,7 +15,8 @@ footer {
     width: 600px;
     padding-left: 60px;
     margin-top: 30px;
-    font-family: 'Courier New', Courier, monospace;
+    font: "Montserrat Bold";
+    letter-spacing: 0.5px;/*(letras-espaçamento)Só pq as letras tavam parecendo mto juntas*/
     font-size: 17pt;
 }
 
