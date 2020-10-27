@@ -1,44 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 footer {
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(38, 38, 38);
     margin-top: 2000px;
     height: 315px;
+    width: 100%;
 }
 
 .classeDoTexto {
-    width: 600px;
+    width: 300px;
+    box-sizing: content-box;
+
 }
 
 .classeDoTexto h1 {
     color: #fffefe;
-    width: 600px;
+    width: 400;
     padding-left: 60px;
     margin-top: 30px;
     font: "Montserrat Bold";
     letter-spacing: 0.5px;/*(letras-espaçamento)Só pq as letras tavam parecendo mto juntas*/
     font-size: 17pt;
+    box-sizing: content-box;
+
 }
 
 .RedesSociais {
-    width: 600px;
+    width: 300px;
     /* W = largura*/
     height: 40px;
     /* H = altura*/
-    margin-left: 50px;
+    margin-left: 0px;
     margin-top: 40px;
+    box-sizing: content-box;
+
 }
 
 .RedesSociais ul li {
     display: inline;
     margin-left: 10px;
-
+    box-sizing: content-box;
 }
 
 .faixinha {
     background-image: linear-gradient(-90deg,
-            #1d43b5,
-            #00fff7);
+            #0a37bd,
+            #41fef8);
     width: 100%;
     height: 5px;
 }
@@ -47,6 +54,8 @@ footer {
     float: right;
     padding-top: 0px;
     padding-right: 40px;
+    box-sizing: content-box;
+
 }
 
 .copy {
@@ -54,5 +63,12 @@ footer {
     margin-left: 60px;
     margin-top: 50px;
     width: 300px;
+    box-sizing: content-box;
 
+}
+@media (max-width:375px){
+
+.localizacao{
+    display: none;
+}
 }

@@ -11,33 +11,43 @@
   <link rel="stylesheet" href="public/css/membros.css" />
   <link rel="stylesheet" href="public/css/FormularioContato.css" />
   <link rel="stylesheet" href="public/css/header.css" />
-
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <link rel="shortcut icon" href="./public/img/IconeParaONavegador.png" type="image/x-icon" />
 </head>
 
-<body>
+<body id="body">
   <!-- -------------------HEADER-------------  -->
-  <header>
-    <a href="#" class="logo"><img src="./public/img/LogoParaHeader - Copia.png" width="119" height="70" />
+  <header >
+    <a href="#ImagemBanner" class="logo"><img src="./public/img/LogoParaHeader - Copia.png" />
     </a>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Sobre</a></li>
-      <li><a href="#">Soluções</a></li>
-      <li><a href="#">Clientes</a></li>
-      <li><a href="#">Membros</a></li>
-      <li><a href="#">Contatos</a></li>
+    <ul id="PrecisoParajs">
+      <li><a href="#ImagemBannerJS">Home</a></li>
+      <li><a href="#TextoSobreJS">Sobre</a></li>
+      <!--Para o js funcionar, o href tem que ser o mesmo do id da div em questao-->
+      <li><a href="#TextoSobreJS">Soluções</a></li>
+      <li><a href="#TextoSobreJS">Clientes</a></li>
+      <li><a href="#TextoSobreJS">Membros</a></li>
+      <li><a href="#TextoSobreJS">Contatos</a></li>
     </ul>
+    <input type="checkbox" id="check"  onclick="MeuBotaoMenu()">
+    <label for="check" class="checkbtn">&#9776;</label>
   </header>
   <!-- ---------------------------------------  -->
 
-
   <!-- -------------------Imagem Começo-------------  -->
-  <section class="banner">
-    <img src="./public/img/ImagemDeInicio.jpg" />
-
+  <section class="banner" id="ImagemBannerJS">
+    <img class="imagemBanner" src="./public/img/ImagemDeInicio.jpg" />
   </section>
   <!-- ----------------------------------------- -->
+    <!-- ---------------SOBRE------------------- -->
+
+  <div class="TextoSobre" id="TextoSobreJS">
+    <h1>SOMOS A PRIMEIRA EMPRESA JÚNIOR DE ADMINISTRAÇÃO DO OESTE DE SANTA CATARINA</h1><br>
+    <h3>Trabalhamos desde 2013 com o intuito de construir projetos que solucionem necessidades da sua empresa. A Sem Fronteiras é vinculada a Universidade Federal da Fronteira Sul, formada exclusivamente por estudantes do curso de administração.
+    </h3>
+  </div>
+    <!-- ----------------------------------------- -->
 
   <!-- ------------------Footer----------------- -->
 
