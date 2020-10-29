@@ -5,3 +5,22 @@ body {
   background-color: #383838;
 }
 
+.titulo {
+  background-color: #138BB1;
+  width: 50%;
+  height: 50px;
+  line-height: 50px;
+  margin: 50px 0 20px 0;
+  text-align: end;
+  border-radius: 0 10px 10px 0;
+  -webkit-box-shadow: 3px 4px 6px #222;
+  -moz-box-shadow:    3px 4px 6px #222;
+  box-shadow:         3px 4px 6px #222;
+}
+
+h1 {
+  color: #e1e1e1;
+  margin-right: 22px;
+  font-size: 26px;
+  letter-spacing: 1px;
+}
