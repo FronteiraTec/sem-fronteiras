@@ -1,0 +1,33 @@
+.solucoes .row {
+    display: flex;
+    justify-content: center;
+}
+
+.solucoes .card {
+    background-color: #138BB1;
+    color: white;
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 4px 6px #222;
+    -moz-box-shadow:    3px 4px 6px #222;
+    box-shadow:         3px 4px 6px #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+
+}
+
+.solucoes .card .icon {
+    font-size: 75px;
+}
+
+.solucoes .white {
+    background-color: white;
+    color: black;
+}
