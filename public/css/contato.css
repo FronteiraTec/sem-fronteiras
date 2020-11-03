@@ -1,0 +1,79 @@
+.contato {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 0%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    display: block;
+}
+
+input {
+    padding: 9px;
+    margin-bottom: 15px;
+    background-color: #383838;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px 0 0 7px;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.field-nome {
+    width: 49.5vw;
+}
+
+.field-telefone {
+    width: 29.5vw;
+    float: right;
+}
+
+.field-empresa {
+    width: 29.5vw;
+}
+
+.field-email {
+    width: 49.5vw;
+    float: right;
+}
+
+.field-assunto {
+    width: 80vw;
+}
+
+.field-mensagem {
+    color: white;
+    width: 80vw;
+    height: 20vh;
+    padding: 9px;
+    margin-bottom: 15px;
+    background-color: #383838;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 7px 0 0 7px;
+    font-family: 'Montserrat';
+}
+
+.field-enviar {
+    display: inline-block;
+    width: 20vw;
+    padding: 9px;
+    background-color: #138BB1;
+    color: white;
+    cursor: pointer;
+    border-radius: 60px;
+    border: 0;
+    float: right;
+    margin-right: 30vw;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 3px 3px 3px rgb(31, 31, 31);
+}
+
+.field-enviar:hover {
+    color: #138BB1;
+    background-color: #ffffff;
+}
