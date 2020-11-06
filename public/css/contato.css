@@ -32,12 +32,8 @@ input {
     float: right;
 }
 
-.field-empresa {
-    width: 29.5vw;
-}
-
 .field-email {
-    width: 49.5vw;
+    width: 80vw;
     float: right;
 }
 
@@ -75,4 +71,13 @@ input {
 .field-enviar:hover {
     color: #138BB1;
     background-color: #ffffff;
+}
+
+@media (max-width:900px) {
+    .field-nome {
+        width: 80vw;
+    }
+    .field-telefone {
+        width: 80vw;
+    }
 }
