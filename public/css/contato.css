@@ -1,8 +1,7 @@
 .contato {
-    width: 100vw;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 0%;
 }
 
@@ -14,13 +13,14 @@
 }
 
 input {
-    padding: 9px;
+    padding: 13px;
     margin-bottom: 15px;
     background-color: #383838;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 7px 0 0 7px;
     font-family: 'Montserrat';
     color: white;
+    font-size: 15px;
 }
 
 .field-nome {
@@ -29,11 +29,15 @@ input {
 
 .field-telefone {
     width: 29.5vw;
+}
+
+.field-empresa {
+    width: 29.5vw;
     float: right;
 }
 
 .field-email {
-    width: 80vw;
+    width: 49.5vw;
     float: right;
 }
 
@@ -79,5 +83,30 @@ input {
     }
     .field-telefone {
         width: 80vw;
+    }
+    .field-empresa {
+        width: 80vw;
+    }
+    .field-email {
+        width: 80vw;
+    }
+    .field-enviar {
+        width: 20vw;
+        padding: 9px;
+        font-size: 13px;
+    }
+    input {
+        padding: 12px;
+    }
+}
+
+@media (max-width:900px) {
+    .field-enviar {
+        width: 20vw;
+        padding: 9px;
+        font-size: 13px;
+    }
+    input {
+        padding: 10px;
     }
 }

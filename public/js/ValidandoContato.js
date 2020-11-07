@@ -1,30 +1,28 @@
  function ValidarForm(event) {
 
-     event.preventDefault();
-
-     console.log(event);
+     //event.preventDefault();
 
      const FormContato = document.querySelector('[name=FormContato]')
 
      const formData = new FormData(FormContato);
-     console.log(formData);
+
      for (let campo of formData.entries()) {
 
          const campotes = document.querySelector(`[name=${campo[0]}]`);
-         console.log(campotes)
 
          if (campo[0] === 'name' && campo[1] === "") {
-             alert("Campo nome obrigatório!");
+             alert("O nome é obrigatório!");
              campotes.focus();
              return;
          }
          if (campo[0] === 'email' && campo[1] === "") {
-             alert("Campo nome obrigatório!");
+             alert("O email é obrigatório!");
              campotes.focus();
              return;
          }
+
          if (campo[0] === 'message' && campo[1] === "") {
-             alert("Campo nome obrigatório!");
+             alert("Por favor, insira uma mensagem!");
              campotes.focus();
              return;
          }
