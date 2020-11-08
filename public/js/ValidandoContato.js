@@ -1,30 +1,34 @@
- function ValidarForm(event) {
+ function handleSubmit(event) {
 
-     //event.preventDefault();
+     event.preventDefault();
 
-     const FormContato = document.querySelector('[name=FormContato]')
+     const [...fields] = document.querySelectorAll(".form [name]");
+     let isValid = true;
+     console.log(fields);
 
-     const formData = new FormData(FormContato);
-
-     for (let campo of formData.entries()) {
-
-         const campotes = document.querySelector(`[name=${campo[0]}]`);
-
-         if (campo[0] === 'name' && campo[1] === "") {
-             alert("O nome é obrigatório!");
-             campotes.focus();
-             return;
-         }
-         if (campo[0] === 'email' && campo[1] === "") {
-             alert("O email é obrigatório!");
-             campotes.focus();
+     fields.forEach(element => {
+         console.log(element);
+         if (!isValid) {
              return;
          }
 
-         if (campo[0] === 'message' && campo[1] === "") {
-             alert("Por favor, insira uma mensagem!");
-             campotes.focus();
-             return;
+         element.addEventListener("keypress", (event) => {
+             if (element.value != "") {
+                 element.classList.remove("has-error");
+             }
+         });
+
+         if (["name", "email", "message"].indexOf(element.name) > -1 && !element.value) {
+             console.dir(element);
+             element.focus();
+             element.classList.add("has-error");
+             console.log(element.classList);
+             isValid = false;
          }
-     }
+         if (["name", "email", "message"].indexOf(element.name) > 1 && !element.value) {
+             let MeuForm = document.querySelector(".form");
+             MeuForm.submit();
+         }
+     });
+
  }

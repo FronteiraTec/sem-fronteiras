@@ -22,6 +22,12 @@ input {
     font-size: 15px;
 }
 
+.has-error {
+    border-color: rgb(249, 76, 76) !important;
+    border: 2px solid rgb(249, 76, 76) !important;
+    outline: none !important;
+}
+
 input:hover {
     border: 2px solid rgb(38, 175, 238);
 }

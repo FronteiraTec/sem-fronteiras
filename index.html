@@ -141,16 +141,15 @@
     </div>
     <div class="contato">
         <form class="form" name="FormContato" method="post" action="https://api.staticforms.xyz/submit">
-            <input type="hidden" name="accessKey" value="d7afeeea-3a53-42d0-abc0-3bcd9acf9aed" />
+            <input type="hidden" name="accessKey" value="d7afeeea-3a53-42d0-abc0-3bcd9acf9aed">
             <input class="field-nome" name="name" placeholder="Nome" type="text" required>
-            <input class="field-empresa" name="name" placeholder="Empresa" type="text" required>
+            <input class="field-empresa" name="name" placeholder="Empresa" type="text">
             <input class="field-telefone" name="phone" placeholder="Telefone" type="number">
-            <input class="field-email" name="email" placeholder="E-mail" type="email" required/>
-            <input class="field-assunto" name="subject" placeholder="Assunto" type="text" />
+            <input class="field-email" name="email" placeholder="E-mail" type="email" required>
+            <input class="field-assunto" name="subject" placeholder="Assunto" type="text">
             <textarea class="field-mensagem" name="message" placeholder="Digite sua mensagem aqui" maxlength="600" required></textarea>
-            <input type="hidden" name="redirectTo" value="http://google.com" />
-            <input class="field-enviar" type="submit" value="Enviar" onclick="ValidarForm(event)" />
-
+            <input type="hidden" name="redirectTo" value="http://google.com">
+            <input class="field-enviar" type="submit" value="Enviar" onclick="handleSubmit(event)">
         </form>
     </div>
     <!-- ---------------------------------------  -->
