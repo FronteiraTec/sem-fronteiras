@@ -1,6 +1,6 @@
 var alturaDoBanner = document.querySelector(".imagemBanner").clientHeight;
 console.log(alturaDoBanner)
-window.addEventListener("scroll", function () {
+window.addEventListener("scroll", function() {
     var header = document.querySelector("header");
     header.classList.toggle("PassouDaImagem", window.scrollY > alturaDoBanner);
 })
@@ -8,37 +8,37 @@ window.addEventListener("scroll", function () {
 var checkbox = document.getElementById("check");
 var minhasopcoesdemenu = document.getElementById("PrecisoParajs");
 
-if(checkbox.checked == false){
+if (checkbox.checked == false) {
     minhasopcoesdemenu.style.left = "-100%";
 }
-function MeuBotaoMenu(){
+
+function MeuBotaoMenu() {
     var checkbox = document.getElementById("check");
     var minhasopcoesdemenu = document.getElementById("PrecisoParajs");
 
-    if(checkbox.checked == true){
+    if (checkbox.checked == true) {
         minhasopcoesdemenu.style.left = "60vw";
-    }else{
+    } else {
         minhasopcoesdemenu.style.left = "-100vw";
     }
-   
+
 }
 
 const menuItens = document.querySelectorAll('header a[href^="#"]');
 
-menuItens.forEach(item =>{
-    item.addEventListener("click" ,AlteraALturaClick);
+menuItens.forEach(item => {
+    item.addEventListener("click", AlteraALturaClick);
 })
 
-function AlteraALturaClick(event){
+function AlteraALturaClick(event) {
     event.preventDefault();
-    const elemento =  event.target;
+    const elemento = event.target;
     const id = elemento.getAttribute('href');
     const section = document.querySelector(id).offsetTop;
     window.scroll({
-        top:section-100,
-        behavior:"smooth",
+        top: section - 160,
+        behavior: "smooth",
     });
     checkbox.checked = false;
     minhasopcoesdemenu.style.left = "-100%";
 }
-
