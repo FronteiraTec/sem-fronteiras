@@ -2,22 +2,22 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sem Fronteiras</title>
-  <link rel="stylesheet" href="public/css/style.css" />
-  <link rel="stylesheet" href="public/css/footer.css" />
-  <link rel="stylesheet" href="public/css/sobre.css" />
-  <link rel="stylesheet" href="public/css/equipe.css" />
-  <link rel="stylesheet" href="public/css/status.css" />
-  <link rel="stylesheet" href="public/css/solucoes.css" />
-  <link rel="stylesheet" href="public/css/contato.css" />
-  <link rel="stylesheet" href="public/css/header.css" />
-  <link rel="stylesheet" href="public/css/cliente.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <link rel="shortcut icon" href="./public/img/IconeParaONavegador.png" type="image/x-icon" />
-  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sem Fronteiras</title>
+    <link rel="stylesheet" href="public/css/style.css" />
+    <link rel="stylesheet" href="public/css/footer.css" />
+    <link rel="stylesheet" href="public/css/sobre.css" />
+    <link rel="stylesheet" href="public/css/equipe.css" />
+    <link rel="stylesheet" href="public/css/status.css" />
+    <link rel="stylesheet" href="public/css/solucoes.css" />
+    <link rel="stylesheet" href="public/css/contato.css" />
+    <link rel="stylesheet" href="public/css/header.css" />
+    <link rel="stylesheet" href="public/css/cliente.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="shortcut icon" href="./public/img/IconeParaONavegador.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 </head>
 
 <body id="body">
@@ -31,7 +31,7 @@
             <li><a href="#TextoSobreJS">Sobre</a></li>
             <!--Para o js funcionar, o href tem que ser o mesmo do id da div em questao-->
             <li><a href="#secaoSolucoes">Soluções</a></li>
-            <li><a href="#TextoSobreJS">Clientes</a></li>
+            <li><a href="#ClientesJS">Clientes</a></li>
             <li><a href="#TextoSobreJS">Membros</a></li>
             <li><a href="#ContatoJS">Contatos</a></li>
         </ul>
@@ -96,98 +96,100 @@
             </div>
         </div>
     </div>
-  </divv
-  <!-- --------------------------------------  -->
-
-  <!-- ----------------CLIENTES---------------  -->
-
- <!-- Interface -->
-
- <div class="interface">
-
-  <!-- Clientes Título -->
-  <div class="clientes">
-    <div class="clientes-titulo">
-      <h4>Clientes</h4>
     </div>
-  </div>
+    <!-- -------------------------------------- -->
 
-  <!-- Clientes Grid -->
-  <div class="cliente-grid">
+    <!-- ----------------CLIENTES---------------  -->
 
-    <div class="cliente-seta-esquerda">
-      <p><</p>
-    </div>
+    <!-- Interface -->
 
-    <div class="client-grid-esquerda"> 
-      <div class="esquerda-grid">    
+    <div class="interface" id="ClientesJS">
 
-        <div class="clientes-imagem">
-          
-          <img src="./public/img/ftcliente.jpg" alt="Foto do cliente">
+        <!-- Clientes Título -->
+        <div class="clientes">
+            <div class="clientes-titulo">
+                <h4>Clientes</h4>
+            </div>
         </div>
 
-        <div class = "cargo-cliente">
-          <h2>José Santana</h2>
-          <h3>Diretor Financeiro</h3>
-          <h5>Transportadora Lorem Ipsum</h5>
+        <!-- Clientes Grid -->
+        <div class="cliente-grid">
+
+            <div class="cliente-seta-esquerda">
+                <p>
+                    < </p>
+            </div>
+
+            <div class="client-grid-esquerda">
+                <div class="esquerda-grid">
+
+                    <div class="clientes-imagem">
+
+                        <img src="./public/img/ftcliente.jpg" alt="Foto do cliente">
+                    </div>
+
+                    <div class="cargo-cliente">
+                        <h2>José Santana</h2>
+                        <h3>Diretor Financeiro</h3>
+                        <h5>Transportadora Lorem Ipsum</h5>
+                    </div>
+
+                </div>
+                <div class="depoimento">
+                    <p>"Uma empresa que visa o lucro é, não apenas falsa, mas também irrelevante. O lucro não é a causa da empresa, mas sua validação. Se quisermos saber o que é uma empresa, devemos partir de sua finalidade, que será encontrada fora da própria
+                        empresa. E essa finalidade é criar um cliente." </p>
+                </div>
+            </div>
+
+            <div class="client-grid-direita">
+                <img src="./public/img/loremipsum.jpg" alt="logotipo da empresa">
+
+                <a href="#" class="clienteBotao">SAIBA MAIS</a>
+            </div>
+
+            <div class="cliente-seta-direita">
+                <p>></p>
+            </div>
+
         </div>
 
-      </div> 
-      <div class = "depoimento">
-      <p>"Uma empresa que visa o lucro é, não apenas falsa, mas também irrelevante. O lucro não é a causa da empresa, mas sua validação. Se quisermos saber o que é uma empresa, devemos partir de sua finalidade, que será encontrada fora da própria empresa. E essa finalidade é criar um cliente."  </p>
-        </div>
     </div>
 
-    <div class="client-grid-direita">
-      <img src="./public/img/loremipsum.jpg" alt="logotipo da empresa">
+    <!-- ---------------------------------------  -->
 
-      <a href="#" class="clienteBotao">SAIBA MAIS</a>
+    <!-- ----------------STATUS------------------ -->
+    <div class="container__barra-status">
+        <ul class="barra-status__list">
+            <li class=list__item>
+                <div class="item__content">
+                    10
+                </div>
+                <span>Projetos</span>
+            </li>
+            <li class=list__item>
+                <div class="item__content">
+                    50
+                </div>
+                <span>Colaboradores</span>
+            </li>
+            <li class=list__item>
+                <div class="item__content">
+                    25
+                </div>
+                <span>Estados</span>
+            </li>
+            <li class=list__item>
+                <div class="item__content">
+                    15
+                </div>
+                <span>Clientes</span>
+            </li>
+        </ul>
     </div>
+    <!-- ---------------------------------------- -->
 
-    <div class="cliente-seta-direita">
-      <p>></p>
-    </div>
-
-  </div>
-
-</div>
-
-  <!-- ---------------------------------------  -->
-
-  <!-- ----------------STATUS------------------ -->
-  <div class="container__barra-status">
-    <ul class= "barra-status__list"> 
-        <li class= list__item>
-          <div class="item__content"> 
-            10
-          </div>
-          <span>Projetos</span>
-        </li>
-        <li class= list__item>
-           <div class="item__content">
-             50
-           </div>
-          <span>Colaboradores</span> 
-        </li>
-        <li class= list__item>
-          <div class="item__content">
-            25
-          </div>
-          <span>Estados</span>
-        </li>
-        <li class= list__item>
-          <div class="item__content">
-            15
-          </div>
-          <span>Clientes</span>
-        </li>
-    </ul>
-</div>
-  <!-- ---------------------------------------- -->
-
-  <!-- -----------EQUIPE----------------------  -->
-  <!-- ---------------------------------------  -->
+    <!-- -----------EQUIPE----------------------  -->
+    <!-- ---------------------------------------  -->
 
     <!-- -----------CONTATO---------------------  -->
     <div class="titulo" id="ContatoJS">
