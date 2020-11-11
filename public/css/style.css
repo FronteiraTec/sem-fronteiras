@@ -2,6 +2,7 @@
 body {
     min-height: 2500px;
     background-color: #383838;
+    max-width: 100%;
 }
 
 .titulo {
