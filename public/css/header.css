@@ -19,6 +19,7 @@ header {
     padding: 0px 90px 0px 80px;
     background-color: #383838;
     position: fixed;
+    z-index: 10;
 }
 
 header ul li a {
