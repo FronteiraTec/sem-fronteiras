@@ -6,13 +6,13 @@
 .solucoes .card {
     background-color: #138BB1;
     color: white;
-    width: 250px;
-    height: 250px;
-    margin: 15px;
-    padding: 8px;
+    width: 20vw;
+    height: 28vh;
+    margin: 2vw;
+    padding: auto;
     text-align: center;
     font-family: 'Montserrat';
-    font-size: 15px;
+    font-size: 14px;
     border-radius: 10px;
     -webkit-box-shadow: 3px 4px 6px #222;
     -moz-box-shadow: 3px 4px 6px #222;
@@ -21,13 +21,115 @@
     align-items: center;
     justify-content: center;
     letter-spacing: 1px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: 2s;
+}
+
+.card.is-flipped {
+    transform: rotateX(-180deg);
+    transition: 1s;
+}
+
+.card.white.is-flipped {
+    transform: rotateY(-180deg);
+    transition: 1s;
+}
+
+.card-back {
+    transform: rotateX(-180deg);
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px 15px 10px;
+}
+
+.back-white {
+    transform: rotateY(180deg);
 }
 
 .solucoes .card .icon {
     font-size: 75px;
 }
 
+.card-content {
+    position: absolute;
+    padding: 50px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    align-items: center;
+}
+
 .solucoes .white {
     background-color: white;
     color: black;
+}
+
+.card h3 {
+    border-bottom: solid #ffffff 0.2px;
+}
+
+.solucoes .card h3 {
+    font-size: 1.7em;
+}
+
+.solucoes .card p {
+    font-size: 1.2em;
+}
+
+@media (max-width:1200px) {
+    .solucoes .card {
+        font-size: 15px;
+        width: 30vw;
+        height: 28vh;
+    }
+    .solucoes .card .icon {
+        font-size: 60px;
+    }
+    .solucoes .card h3 {
+        font-size: 1.5em;
+    }
+    .solucoes .card p {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width:1000px) {
+    .solucoes .card h3 {
+        font-size: 1.2em;
+    }
+    .solucoes .card p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width:850px) {
+    .solucoes .card h3 {
+        font-size: 1.2em;
+    }
+    .solucoes .card p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width:700px) {
+    .solucoes .row {
+        display: list-item;
+    }
+    .solucoes .card {
+        font-size: 15px;
+        width: 70vw;
+        height: 25vh;
+        margin: 0 0 4vw 15vw;
+        padding: 10px;
+    }
+    .solucoes .card .icon {
+        font-size: 45px;
+    }
+    .solucoes .card h3 {
+        font-size: 1.3em;
+    }
+    .solucoes .card p {
+        font-size: 1em;
+    }
 }
