@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
     min-height: 2500px;
-    background-color: #383838;
+    background-color: #bfbfbf;
     max-width: 100%;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .titulo h1 {
-    color: #e1e1e1;
+    color: #ffffff;
     font-family: 'Montserrat';
     margin-right: 22px;
     font-size: 22px;

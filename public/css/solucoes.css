@@ -27,24 +27,15 @@
 }
 
 .card.is-flipped {
-    transform: rotateX(-180deg);
-    transition: 1s;
-}
-
-.card.white.is-flipped {
     transform: rotateY(-180deg);
     transition: 1s;
 }
 
 .card-back {
-    transform: rotateX(-180deg);
+    transform: rotateY(180deg);
     width: 100%;
     height: 100%;
     padding: 20px 10px 15px 10px;
-}
-
-.back-white {
-    transform: rotateY(180deg);
 }
 
 .solucoes .card .icon {

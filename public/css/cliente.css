@@ -11,8 +11,8 @@ body {
     margin: 0 auto;
     margin-top: 100px;
     /* width: 80%; */
-    background-color:  #383838;
 }
+
 
 /* Clientes Título */
 
@@ -25,7 +25,7 @@ body {
     padding: 0px 25px;
     background-color: #1E95BA;
     font-size: 22px;
-    color: white;
+    color: rgb(0, 0, 0);
     width: 50%;
     border-radius: 10px 0px 0px 10px;
 }
@@ -33,6 +33,7 @@ body {
 .clientes-titulo h4 {
     margin: 10px;
 }
+
 
 /* Clientes Grid */
 
@@ -45,24 +46,21 @@ body {
 
 .client-grid-esquerda {
     padding: 50px;
-    background-color: #383838;
 }
 
-.client-grid-direita { 
+.client-grid-direita {
     padding: 10px;
-    background-color:#383838;
 }
 
 .client-grid-direita img {
     width: 60%;
     margin: 30px 0 30px 62px;
     box-shadow: 3px 3px rgb(49, 49, 49);
-    
 }
 
 .clienteBotao {
     background-color: #1E95BA;
-    color: white ;
+    color: white;
     padding: 10px 107px;
     text-align: center;
     white-space: nowrap;
@@ -70,11 +68,12 @@ body {
     display: inline-block;
     font-size: 16px;
     margin: 4px 4px 4px 62px;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
-    border: 2px solid #1E95BA ;
-    border-radius:  5px;
+    border: 2px solid #1E95BA;
+    border-radius: 5px;
     box-shadow: 3px 3px rgb(49, 49, 49);
 }
 
@@ -86,8 +85,6 @@ body {
     box-shadow: 3px 3px rgb(49, 49, 49);
 }
 
-
-
 .esquerda-grid {
     display: grid;
     grid-template-columns: 40% 60%;
@@ -96,18 +93,15 @@ body {
 .cargo-cliente {
     margin: 0px 40px;
     white-space: nowrap;
-    color: rgb(228, 228, 228);
+    color: rgb(2, 2, 2);
     text-shadow: 2px 2px rgb(34, 34, 34);
-    
 }
 
 .depoimento {
     text-align: justify;
     /* font-weight: bold; */
-    color: rgb(201, 200, 200);
+    color: rgb(0, 0, 0);
     margin: 90px 0px 0px 0px;
-    text-shadow: 2px 2px rgb(53, 53, 53);
-    
 }
 
 @media (max-width: 800px) {
@@ -121,15 +115,19 @@ body {
     }
 }
 
-.cliente-grid h2, h3, h5 {
+.cliente-grid h2,
+h3,
+h5 {
     margin: 5px;
 }
 
-.cliente-grid h3, h5 {
+.cliente-grid h3,
+h5 {
     font-weight: normal;
 }
 
-.cliente-seta-esquerda, .cliente-seta-direita {
+.cliente-seta-esquerda,
+.cliente-seta-direita {
     font-size: 30px;
     font-weight: bolder;
     color: white;
@@ -138,7 +136,6 @@ body {
 }
 
 
-  
 /* .clienteBotao:hover {
     background-color: blue;
     color: #f2f2f2;
