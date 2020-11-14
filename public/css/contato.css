@@ -14,8 +14,8 @@
 input {
     padding: 13px;
     margin-bottom: 15px;
-    background-color: #383838;
-    border: 2px solid rgb(255, 255, 255);
+    background-color: #ffffff;
+    border: 3px solid rgb(55, 54, 54);
     border-radius: 7px 0 0 7px;
     font-family: 'Montserrat';
     color: white;
@@ -69,8 +69,8 @@ textarea:hover {
     height: 20vh;
     padding: 9px;
     margin-bottom: 15px;
-    background-color: #383838;
-    border: 2px solid rgb(255, 255, 255);
+    background-color: #ffffff;
+    border: 3px solid rgb(43, 43, 43);
     border-radius: 7px 0 0 7px;
     font-family: 'Montserrat';
 }
