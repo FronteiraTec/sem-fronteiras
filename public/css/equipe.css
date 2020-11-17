@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 .main__members {
-    display: grid;
-    grid-template-columns: 2;
+    
 }
 
 .team-- {
@@ -11,7 +11,7 @@
     margin: 50px 0px 20px;
     text-align: end;
     border-radius: 0px 10px 10px 0px;
-    box-shadow: rgb(34, 34, 34) 3px 4px 6px
+    box-shadow: rgb(34, 34, 34) 3px 4px 6px;
 }
 
 .team-- h1 {
@@ -22,10 +22,27 @@
 }
 
 .container__boxes {
-    
+    width: 33%;
 }
 
 .box {
     background-color: white;
     padding: 25px;
+    margin: 2%;
+    border-radius: 10%;
+    border-radius: 50px;
+    box-shadow: rgb(34, 34, 34) 3px 4px 6px;
+    font-family: "Montserrat Bold", Helvetica, sans-serif;
 }
+
+.box h5 {
+    color: #10c9c3;
+}
+.box h3 {
+    bottom: 20px;
+}
+
+.img-round {
+    border-radius: 50%;
+}
+
