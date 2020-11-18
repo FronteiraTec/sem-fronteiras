@@ -64,16 +64,6 @@ header ul li {
     display: inline-block;
 }
 
-.banner {
-    width: 100%;
-    margin-top: 80px;
-}
-
-.banner .imagemBanner {
-    width: 100%;
-    height: 88vh;
-}
-
 header.PassouDaImagem {
     top: 0;
     left: 0;
@@ -112,10 +102,6 @@ header.PassouDaImagem {
     header .logo img {
         width: 119px;
         height: 70px;
-    }
-    .banner .imagemBanner {
-        width: 100%;
-        height: 66vh;
     }
     header {
         max-width: 1000px;
@@ -276,17 +262,10 @@ header.PassouDaImagem {
         height: 50px;
         margin-top: 5px;
     }
-    .banner .imagemBanner {
-        height: 34vh;
-        width: 100%;
-    }
     header {
         max-width: 450px;
         height: 60px;
         padding: 0 50px 0 50px;
-    }
-    .banner {
-        margin-top: 60px;
     }
     header.PassouDaImagem {
         padding: 0 50px 0 50px;

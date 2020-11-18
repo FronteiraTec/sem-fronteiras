@@ -1,0 +1,27 @@
+.banner {
+    margin-top: 80px;
+}
+
+.banner .imagemBanner {
+    width: 100%;
+    height: 92vh;
+}
+
+.imagemTexto {
+    color: white;
+}
+
+@media (max-width:1000px) {
+    .banner .imagemBanner {
+        width: 100%;
+    }
+}
+
+@media (max-width:450px) {
+    .banner .imagemBanner {
+        width: 100%;
+    }
+    .banner {
+        margin-top: 60px;
+    }
+}
