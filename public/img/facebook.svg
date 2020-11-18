@@ -3,8 +3,8 @@
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="256" y1="514" x2="256" y2="2" gradientTransform="matrix(1 0 0 -1 0 514)">
-	<stop  offset="0" style="stop-color:#00fff7"/>
-	<stop  offset="1" style="stop-color:#1d43b5"/>
+	<stop  offset="0" style="stop-color:#3b5998"/>
+	<stop  offset="1" style="stop-color:#3b5998"/>
 </linearGradient>
 <path style="fill:url(#SVGID_1_);" d="M452,0H60C26.916,0,0,26.916,0,60v392c0,33.084,26.916,60,60,60h392c33.084,0,60-26.916,60-60
 	V60C512,26.916,485.084,0,452,0z M472,452c0,11.028-8.972,20-20,20H338V309h61.79L410,247h-72v-43c0-16.975,13.025-30,30-30h41v-62
