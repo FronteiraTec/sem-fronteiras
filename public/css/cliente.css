@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap');
+
+/* General */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.interface {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* width: 80%; */
+}
+
+
+/* Clientes Título */
+
+.clientes {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.clientes-titulo {
+    padding: 0px 25px;
+    background-color: #1E95BA;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.clientes-titulo h4 {
+    margin: 10px;
+}
+
+
+/* Clientes Grid */
+
+.cliente-grid {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    justify-content: center;
+}
+
+.client-grid-esquerda {
+    padding: 50px;
+}
+
+.client-grid-direita {
+    padding: 10px;
+}
+
+.client-grid-direita img {
+    width: 60%;
+    margin: 30px 0 30px 62px;
+    box-shadow: 3px 3px rgb(49, 49, 49);
+}
+
+.clienteBotao {
+    background-color: #1E95BA;
+    color: white;
+    padding: 10px 107px;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px 4px 62px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #1E95BA;
+    border-radius: 5px;
+    box-shadow: 3px 3px rgb(49, 49, 49);
+}
+
+.clientes-imagem img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0px 100px 0px 20px;
+    box-shadow: 3px 3px rgb(49, 49, 49);
+}
+
+.esquerda-grid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.cargo-cliente {
+    margin: 0px 40px;
+    white-space: nowrap;
+    color: rgb(2, 2, 2);
+    text-shadow: 2px 2px rgb(34, 34, 34);
+}
+
+.depoimento {
+    text-align: justify;
+    /* font-weight: bold; */
+    color: rgb(0, 0, 0);
+    margin: 90px 0px 0px 0px;
+}
+
+@media (max-width: 800px) {
+    .esquerda-grid {
+        text-align: center;
+        grid-template-columns: 100%;
+    }
+    .cliente-grid {
+        text-align: center;
+        grid-template-columns: 80%;
+    }
+}
+
+.cliente-grid h2,
+h3,
+h5 {
+    margin: 5px;
+}
+
+.cliente-grid h3,
+h5 {
+    font-weight: normal;
+}
+
+.cliente-seta-esquerda,
+.cliente-seta-direita {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 170px;
+    margin-left: 40px;
+}
+
+
+/* .clienteBotao:hover {
+    background-color: blue;
+    color: #f2f2f2;
+} */

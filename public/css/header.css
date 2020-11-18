@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
-	list-style: none;
-	box-sizing: border-box;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 header {
@@ -18,8 +17,9 @@ header {
     align-items: center;
     transition: 0.6s;
     padding: 0px 90px 0px 80px;
-    background-color:  #383838;
+    background-color: #383838;
     position: fixed;
+    z-index: 10;
 }
 
 header ul li a {
@@ -32,35 +32,13 @@ header ul li a {
     /*font-weight: bold;*/
     font-family: "Poppins", sans-serif;
     position: relative;
-    margin:0 5px 0 0;
+    margin: 0 5px 0 0;
     color: #fff;
     letter-spacing: 1px;
     transition: 0.6s;
     text-transform: uppercase;
 }
-.TextoSobre{
-    width: 100%;
-    height: 250px;
-    color: #fff;
-    margin-top: 30px;
-    display: block;
-}
-.TextoSobre h1{
-    font-weight: bold;
-    font-family: 'Montserrat';  
-    font-size: 45px;
-    text-align: center;
-    padding: 0px 5vw 0px 5vw;
 
-    
-}
-.TextoSobre h3{
-    font-size: 25px;
-    text-align: center;
-    padding: 0px 5vw 0px 5vw;
-    font-family: 'Montserrat';    letter-spacing: 0.5px;
-
-}
 header a .logo {
     position: relative;
     text-transform: uppercase;
@@ -71,30 +49,31 @@ header .logo img {
     width: 119px;
     height: 70px;
 }
+
 header ul li a:hover {
     /* hover seria quando o mouse passa por cima, */
     background-color: #1E95BA;
 }
-.header ul li a.ativo {
-    /* aqui seria a função para definir ele quando esta selecionado/ativo */
-    background-color: #178fb3;
-    color: #2b2b2b;
-}
+
 header ul {
     display: inline-block;
 }
+
 header ul li {
     list-style: none;
     display: inline-block;
 }
+
 .banner {
     width: 100%;
     margin-top: 80px;
 }
+
 .banner .imagemBanner {
     width: 100%;
     height: 88vh;
 }
+
 header.PassouDaImagem {
     top: 0;
     left: 0;
@@ -103,7 +82,7 @@ header.PassouDaImagem {
     align-items: center;
     width: 100%;
     height: 80.6px;
-    background:  #383838;
+    background: #383838;
     border-bottom: solid #0a9bd8 0.6px;
     transition: 2s;
     position: fixed;
@@ -111,20 +90,22 @@ header.PassouDaImagem {
 
 .checkbtn {
     font-size: 35px;
-	color: rgb(0, 208, 255);
-	float: right;
-	cursor: pointer;
+    color: rgb(0, 208, 255);
+    float: right;
+    cursor: pointer;
     display: none;
     width: 40px;
     height: 40px;
     font-weight: bold;
 }
-#check{
-    display:none;
+
+#check {
+    display: none;
 }
-@media (max-width:1000px){
-      /*Telas menores mas nao de celular*/
-      header a .logo {
+
+@media (max-width:1000px) {
+    /*Telas menores mas nao de celular*/
+    header a .logo {
         width: 75px;
         height: 50px;
     }
@@ -136,8 +117,8 @@ header.PassouDaImagem {
         width: 100%;
         height: 66vh;
     }
-    header{
-        max-width:1000px  ;
+    header {
+        max-width: 1000px;
         height: 80px;
         padding: 0 50px 0 50px;
     }
@@ -145,28 +126,16 @@ header.PassouDaImagem {
         padding: 0 50px 0 50px;
         width: 100%;
         height: 80px;
-        background:  #383838;
+        background: #383838;
         position: fixed;
         float: right;
         border-bottom: solid #0a9bd8 0.6px;
         transition: 2s;
     }
-    .TextoSobre{
-        width: 100%;
-        height: 300px;
-        color: #fff; 
-        margin-top: 30px;
-    }
-    .TextoSobre h1{
-        font-size: 35px;
-    }
-    .TextoSobre h3{
-        font-size: 25px;
-    }
     header ul li a {
         float: left;
         text-align: center;
-        padding:20px 0 20px 0;
+        padding: 20px 0 20px 0;
         width: 100%;
         text-decoration: none;
         font-size: 20px;
@@ -181,12 +150,12 @@ header.PassouDaImagem {
         text-transform: uppercase;
         height: 66.6px;
     }
-    header ul li{
+    header ul li {
         width: 100%;
         float: none;
         display: block;
     }
-    header ul{
+    header ul {
         height: 66v;
         background-color: #2d2d2d;
         top: 80px;
@@ -196,15 +165,15 @@ header.PassouDaImagem {
         width: 40%;
         position: absolute;
         float: right;
-
     }
-    .checkbtn{     
+    .checkbtn {
         display: block;
         font-size: 36px;
         width: 50px;
         height: 50px;
     }
 }
+
 
 /*
 
@@ -299,21 +268,21 @@ header.PassouDaImagem {
   }
 }
 */
-@media (max-width:450px){
+
+@media (max-width:450px) {
     /*Telas de celular*/
-   
     header .logo img {
         width: 75px;
         height: 50px;
-        margin-top:5px;
+        margin-top: 5px;
     }
     .banner .imagemBanner {
         height: 34vh;
         width: 100%;
     }
-    header{
-        max-width:450px  ;
-        height: 60px;  
+    header {
+        max-width: 450px;
+        height: 60px;
         padding: 0 50px 0 50px;
     }
     .banner {
@@ -328,22 +297,10 @@ header.PassouDaImagem {
         border-bottom: solid #0a9bd8 0.6px;
         transition: 2s;
     }
-    .TextoSobre{
-        width: 100%;
-        height: 300px;
-        color: #fff;
-        margin-top: 10px;
-    }
-    .TextoSobre h1{
-        font-size: 17px;
-    }
-    .TextoSobre h3{
-        font-size: 12px;
-    }
     header ul li a {
         float: left;
         text-align: center;
-        padding:10px 0 10px 0;
+        padding: 10px 0 10px 0;
         width: 40vw;
         text-decoration: none;
         font-size: 14px;
@@ -358,12 +315,12 @@ header.PassouDaImagem {
         text-transform: uppercase;
         height: 5.666vh;
     }
-    header ul li{
+    header ul li {
         width: 40vw;
         float: none;
         display: block;
     }
-    header ul{
+    header ul {
         width: 40vw;
         position: absolute;
         float: right;
@@ -375,7 +332,7 @@ header.PassouDaImagem {
         transition: all .5s;
         display: inline;
     }
-    .checkbtn{     
+    .checkbtn {
         display: block;
         font-size: 25px;
         width: 30px;
