@@ -12,5 +12,4 @@ function typeWrite(element) {
 }
 
 const titulo = document.querySelector(".imagemTexto");
-console.log(titulo);
 typeWrite(titulo);

@@ -1,5 +1,4 @@
 var alturaDoBanner = document.querySelector(".imagemBanner").clientHeight;
-console.log(alturaDoBanner)
 window.addEventListener("scroll", function() {
     var header = document.querySelector("header");
     header.classList.toggle("PassouDaImagem", window.scrollY > alturaDoBanner);
@@ -29,6 +28,10 @@ const menuItens = document.querySelectorAll('header a[href^="#"]');
 menuItens.forEach(item => {
     item.addEventListener("click", AlteraALturaClick);
 })
+
+const textobanner = document.querySelector(".button-avaliacao");
+textobanner.addEventListener("click", AlteraALturaClick);
+
 
 function AlteraALturaClick(event) {
     event.preventDefault();
