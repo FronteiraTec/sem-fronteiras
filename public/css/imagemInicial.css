@@ -13,19 +13,23 @@
 
 .button-avaliacao {
     font-size: 20px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(0, 123, 181);
+    color: #1297d0;
+    background-color: rgb(38, 38, 38);
     cursor: pointer;
-    width: 22vw;
+    width: 24vw;
     height: 8vh;
-    border: 1px solid;
+    border: 3px solid;
     border-radius: 10px;
     font-weight: 800;
     position: absolute;
-    bottom: 35vh;
-    left: 39vw;
+    left: 38vw;
     text-align: center;
-    top: 65vh;
+    top: 27vw;
+}
+
+.button-avaliacao:hover {
+    color: rgb(38, 38, 38);
+    background-color: #0a9ad800;
 }
 
 .banner .imagemBanner {
@@ -45,54 +49,86 @@
 
 .imagemTexto {
     position: absolute;
-    bottom: 35vh;
+    top: 17vw;
     left: 0;
     text-align: center;
     color: rgb(38, 38, 38);
-    font-size: 4em;
+    font-size: 3.7em;
     padding: 0 3vh 0 3vh;
     font-weight: 900;
     font-family: 'Montserrat';
 }
 
+@media (max-width:1400px) {
+    .button-avaliacao {
+        top: 30vw;
+    }
+}
+
 @media (max-width:1100px) {
     .imagemTexto {
         bottom: 28vh;
+        font-size: 3.2em;
+    }
+    .button-avaliacao {
+        font-size: 19px;
+        width: 27vw;
+        height: 7vh;
+        left: 36.5vw;
     }
 }
 
 @media (max-width:1000px) {
-    .banner .imagemBanner {
-        width: 100%;
-    }
     .imagemTexto {
-        bottom: 30vh;
-        font-size: 2.2em;
+        font-size: 2.6em;
+    }
+    .button-avaliacao {
+        font-size: 17px;
+        width: 30vw;
+        height: 7vh;
+        left: 35vw;
     }
 }
 
 @media (max-width:800px) {
     .imagemTexto {
-        bottom: 20vh;
+        font-size: 1.9em;
+    }
+    .button-avaliacao {
+        font-size: 14px;
+        width: 30vw;
+        height: 7vh;
+        left: 35vw;
     }
 }
 
 @media (max-width:600px) {
     .imagemTexto {
-        bottom: 10vh;
-        font-size: 1.8em;
+        font-size: 1.3em;
+        top: 27vw;
+    }
+    .button-avaliacao {
+        font-size: 12px;
+        width: 28vw;
+        height: 5vh;
+        left: 36vw;
+        top: 37vw
     }
 }
 
 @media (max-width:450px) {
-    .banner .imagemBanner {
-        width: 100%;
-    }
     .banner {
         margin-top: 60px;
     }
     .imagemTexto {
-        bottom: 12vh;
-        font-size: 1.5em;
+        font-size: 1em;
+        top: 26vw;
+    }
+    .button-avaliacao {
+        font-size: 7px;
+        width: 30vw;
+        height: 4vh;
+        left: 36vw;
+        top: 38vw;
     }
 }
