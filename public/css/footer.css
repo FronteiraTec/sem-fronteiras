@@ -82,6 +82,9 @@
 }
 
 @media (max-width:768px) {
+    .container__text span {
+        font-size: 15px;
+    }
     .container__footer {
         flex-direction: column;
         padding: 0px 15px 0px 15px;
