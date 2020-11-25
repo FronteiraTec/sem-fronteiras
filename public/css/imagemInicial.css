@@ -18,13 +18,13 @@
     cursor: pointer;
     width: 24vw;
     height: 8vh;
-    border: 3px solid;
+    border: 2px solid;
     border-radius: 10px;
     font-weight: 800;
     position: absolute;
     left: 38vw;
     text-align: center;
-    top: 27vw;
+    top: 30vw;
 }
 
 .button-avaliacao:hover {
@@ -49,7 +49,7 @@
 
 .imagemTexto {
     position: absolute;
-    top: 17vw;
+    top: 20vw;
     left: 0;
     text-align: center;
     color: rgb(38, 38, 38);
@@ -61,7 +61,7 @@
 
 @media (max-width:1400px) {
     .button-avaliacao {
-        top: 30vw;
+        top: 33vw;
     }
 }
 
@@ -108,7 +108,7 @@
         top: 27vw;
     }
     .button-avaliacao {
-        font-size: 12px;
+        font-size: 0.6em;
         width: 28vw;
         height: 5vh;
         left: 36vw;
