@@ -7,42 +7,42 @@
 .TextoSobre h1 {
     font-weight: bold;
     font-family: 'Montserrat';
-    font-size: 45px;
+    font-size: 2.2em;
     text-align: center;
-    padding: 0px 5vw 0px 5vw;
+    padding: 0px 3vw 0px 3vw;
 }
 
 .TextoSobre h3 {
-    font-size: 25px;
+    font-size: 1.5em;
     text-align: center;
-    padding: 0px 5vw 0px 5vw;
+    padding: 0px 3vw 0px 3vw;
     font-family: 'Montserrat';
     letter-spacing: 0.5px;
 }
 
 @media (max-width:1000px) {
     .TextoSobre h1 {
-        font-size: 35px;
+        font-size: 1.5em;
     }
     .TextoSobre h3 {
-        font-size: 25px;
+        font-size: 1.2em;
     }
 }
 
 @media (max-width:700px) {
     .TextoSobre h1 {
-        font-size: 17px;
+        font-size: 1.2em;
     }
     .TextoSobre h3 {
-        font-size: 13px;
+        font-size: 0.9em;
     }
 }
 
 @media (max-width:450px) {
     .TextoSobre h1 {
-        font-size: 15px;
+        font-size: 1em;
     }
     .TextoSobre h3 {
-        font-size: 11px;
+        font-size: 0.8em;
     }
 }

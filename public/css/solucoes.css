@@ -61,11 +61,11 @@
 }
 
 .solucoes .card h3 {
-    font-size: 1.7em;
+    font-size: 1.6em;
 }
 
 .solucoes .card p {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 @media (max-width:1200px) {
@@ -81,7 +81,7 @@
         font-size: 1.5em;
     }
     .solucoes .card p {
-        font-size: 1.1em;
+        font-size: 0.9em;
     }
 }
 
@@ -96,10 +96,10 @@
 
 @media (max-width:850px) {
     .solucoes .card h3 {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
     .solucoes .card p {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 }
 
@@ -122,5 +122,14 @@
     }
     .solucoes .card p {
         font-size: 1em;
+    }
+}
+
+@media (max-width:450px) {
+    .solucoes .card h3 {
+        font-size: 0.9em;
+    }
+    .solucoes .card p {
+        font-size: 0.7em;
     }
 }
