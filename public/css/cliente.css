@@ -13,7 +13,6 @@ body {
     /* width: 80%; */
 }
 
-
 /* Clientes Título */
 
 .clientes {
@@ -34,18 +33,19 @@ body {
     margin: 10px;
 }
 
-
 /* Clientes Grid */
 
 .cliente-grid {
     margin: 50px 0;
     display: grid;
-    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-columns: 10% 80% 10%;
     justify-content: center;
 }
 
 .client-grid-esquerda {
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
 }
 
 .client-grid-direita {
@@ -77,42 +77,36 @@ body {
     box-shadow: 3px 3px rgb(49, 49, 49);
 }
 
+.clientes-imagem {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 .clientes-imagem img {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    margin: 0px 100px 0px 20px;
     box-shadow: 3px 3px rgb(49, 49, 49);
 }
 
 .esquerda-grid {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 200px auto;
 }
 
 .cargo-cliente {
-    margin: 0px 40px;
+    margin: 30px 40px 0px;
     white-space: nowrap;
     color: rgb(2, 2, 2);
-    text-shadow: 2px 2px rgb(34, 34, 34);
 }
 
 .depoimento {
+    margin-top: -90px;
     text-align: justify;
-    /* font-weight: bold; */
+    line-height: 24px;
     color: rgb(0, 0, 0);
     margin: 90px 0px 0px 0px;
-}
-
-@media (max-width: 800px) {
-    .esquerda-grid {
-        text-align: center;
-        grid-template-columns: 100%;
-    }
-    .cliente-grid {
-        text-align: center;
-        grid-template-columns: 80%;
-    }
 }
 
 .cliente-grid h2,
@@ -128,15 +122,34 @@ h5 {
 
 .cliente-seta-esquerda,
 .cliente-seta-direita {
-    font-size: 30px;
-    font-weight: bolder;
+    font-size: 50px;
     color: white;
     margin-top: 170px;
-    margin-left: 40px;
 }
 
+.cliente-seta-esquerda p {
+    display: flex;
+    justify-content: center;
+}
 
-/* .clienteBotao:hover {
-    background-color: blue;
-    color: #f2f2f2;
-} */
+.cliente-seta-direita{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 800px) {
+    .esquerda-grid {
+        text-align: center;
+        grid-template-columns: 100%;
+    }
+    .cliente-grid {
+        text-align: center;
+    }
+
+    .cliente-seta-esquerda,
+    .cliente-seta-direita {
+        font-size: 50px;
+        margin-top: 90px;
+    }
+
+}
