@@ -25,7 +25,8 @@
 
     <!-- -------------------HEADER-------------  -->
     <header>
-        <a href="" class="logo"><img src="./public/img/LogoParaHeader.png" />
+        <input type="checkbox" id="check" onclick="MeuBotaoMenu()">
+        <label for="check" class="checkbtn">&#9776;</label>
         </a>
         <ul id="PrecisoParajs">
             <li><a href="#ImagemBannerJS">Home</a></li>
@@ -33,11 +34,10 @@
             <!--Para o js funcionar, o href tem que ser o mesmo do id da div em questao-->
             <li><a href="#secaoSolucoes">Soluções</a></li>
             <li><a href="#ClientesJS">Clientes</a></li>
-            <li><a href="#TextoSobreJS">Membros</a></li>
+            <li><a href="#EquipeJS">Equipe</a></li>
             <li><a href="#ContatoJS">Contatos</a></li>
         </ul>
-        <input type="checkbox" id="check" onclick="MeuBotaoMenu()">
-        <label for="check" class="checkbtn">&#9776;</label>
+        <a href="" class="logo"><img src="./public/img/LogoParaHeader.png" />
     </header>
     <!-- ---------------------------------------  -->
 
@@ -58,10 +58,10 @@
     <!-- --------------------------------------- -->
 
     <!-- ---------------SOLUÇOES---------------  -->
-    <div class="titulo">
+    <div class="titulo" id="secaoSolucoes">
         <h1>Nossas soluções</h1>
     </div>
-    <div class="solucoes" id="secaoSolucoes">
+    <div class="solucoes" >
         <div class="row">
             <div class="card">
                 <div class="card-content">
@@ -203,7 +203,7 @@
     <!-- ---------------------------------------- -->
 
     <!-- -----------EQUIPE----------------------  -->
-    <div class="main__members">
+    <div class="main__members" id="EquipeJS">
 
         <div class="team--">
             <h1>Nossa equipe</h1>

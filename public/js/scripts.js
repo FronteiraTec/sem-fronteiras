@@ -16,9 +16,9 @@ function MeuBotaoMenu() {
     var minhasopcoesdemenu = document.getElementById("PrecisoParajs");
 
     if (checkbox.checked == true) {
-        minhasopcoesdemenu.style.left = "60vw";
+        minhasopcoesdemenu.style.left = "0vw";
     } else {
-        minhasopcoesdemenu.style.left = "-100vw";
+        minhasopcoesdemenu.style.left = "-50vw";
     }
 
 }
@@ -39,7 +39,7 @@ function AlteraALturaClick(event) {
     const id = elemento.getAttribute('href');
     const section = document.querySelector(id).offsetTop;
     window.scroll({
-        top: section - 160,
+        top: section - 120,
         behavior: "smooth",
     });
     checkbox.checked = false;
