@@ -15,7 +15,7 @@ input {
     padding: 13px;
     margin-bottom: 15px;
     background-color: #ffffff;
-    border: 3px solid rgb(55, 54, 54);
+    border: 2px solid rgb(55, 54, 54);
     border-radius: 7px 0 0 7px;
     font-family: 'Montserrat';
     color: rgb(0, 0, 0);
@@ -24,16 +24,16 @@ input {
 
 .has-error {
     border-color: rgb(249, 76, 76) !important;
-    border: 3px solid rgb(249, 76, 76) !important;
+    border: 2px solid rgb(249, 76, 76) !important;
     outline: none !important;
 }
 
 input:hover {
-    border: 3px solid rgb(38, 175, 238);
+    border: 2px solid rgb(38, 175, 238);
 }
 
 textarea:hover {
-    border: px solid rgb(10, 87, 123);
+    border: 2px solid rgb(10, 87, 123);
 }
 
 .field-enviar:hover {
@@ -66,13 +66,14 @@ textarea:hover {
 .field-mensagem {
     color: rgb(0, 0, 0);
     width: 80vw;
-    height: 20vh;
+    height: 25vh;
     padding: 9px;
     margin-bottom: 15px;
     background-color: #ffffff;
-    border: 3px solid rgb(43, 43, 43);
+    border: 2px solid rgb(43, 43, 43);
     border-radius: 7px 0 0 7px;
     font-family: 'Montserrat';
+    resize: none;
 }
 
 .field-enviar {
