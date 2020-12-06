@@ -6,7 +6,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.interface {
+.interface-clientes {
     display: block;
     margin: 0 auto;
     margin-top: 100px;
@@ -20,18 +20,6 @@ body {
     justify-content: flex-end;
 }
 
-.clientes-titulo {
-    padding: 0px 25px;
-    background-color: #1E95BA;
-    font-size: 22px;
-    color: rgb(0, 0, 0);
-    width: 50%;
-    border-radius: 10px 0px 0px 10px;
-}
-
-.clientes-titulo h4 {
-    margin: 10px;
-}
 
 /* Clientes Grid */
 
@@ -42,39 +30,31 @@ body {
     justify-content: center;
 }
 
-.client-grid-esquerda {
+.client-grid-sub {
     display: flex;
     flex-direction: column;
     padding: 25px;
 }
 
-.client-grid-direita {
-    padding: 10px;
-}
 
-.client-grid-direita img {
-    width: 60%;
-    margin: 30px 0 30px 62px;
-    box-shadow: 3px 3px rgb(49, 49, 49);
-}
-
-.clienteBotao {
+.cliente-botao {
     background-color: #1E95BA;
-    color: white;
-    padding: 10px 107px;
+    color: rgb(243, 236, 236);
+    padding: 10px 90px;
     text-align: center;
     white-space: nowrap;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 4px 4px 62px;
+    margin: 4px 4px 4px 4px;
     -webkit-transition-duration: 0.4s;
     /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
     border: 2px solid #1E95BA;
     border-radius: 5px;
-    box-shadow: 3px 3px rgb(49, 49, 49);
+    box-shadow: 3px 3px rgb(158, 158, 158);
+    font-weight: bold;
 }
 
 .clientes-imagem {
@@ -87,10 +67,11 @@ body {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    box-shadow: 3px 3px rgb(49, 49, 49);
+    box-shadow: 3px 3px rgb(177, 177, 177);
+    border: 5px solid #a0a0a0;
 }
 
-.esquerda-grid {
+.grid {
     display: grid;
     grid-template-columns: 200px auto;
 }
@@ -110,9 +91,16 @@ body {
 }
 
 .cliente-grid h2,
-h3,
 h5 {
     margin: 5px;
+    
+}
+
+.formh2{
+    margin: 5px;
+    color: #10c9c3;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .cliente-grid h3,
@@ -138,7 +126,7 @@ h5 {
 }
 
 @media (max-width: 800px) {
-    .esquerda-grid {
+    .grid {
         text-align: center;
         grid-template-columns: 100%;
     }

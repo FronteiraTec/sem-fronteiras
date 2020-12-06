@@ -4,33 +4,16 @@
     padding: 0;
 }
 
-.team-- {
-    background-color: rgb(19, 139, 177);
-    width: 50%;
-    height: 50px;
-    line-height: 50px;
-    margin: 50px 0px 20px;
-    text-align: end;
-    border-radius: 0px 10px 10px 0px;
-    box-shadow: rgb(34, 34, 34) 3px 4px 6px;
-}
-
-.team-- h1 {
-    color: white;
-    margin-right: 22px;
-    font-size: 26px;
-    letter-spacing: 1px;
-}
-
 .container__boxes {
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
+    margin: 0 10px 0 10px;
 }
 
 .box {
     background-color: white;
     padding: 15px;
-    margin: 2%;
+    margin: 10px;
     border-radius: 20px;
     box-shadow: rgb(34, 34, 34) 3px 4px 6px;
     font-family: "Montserrat Bold", Helvetica, sans-serif;
@@ -45,6 +28,7 @@
 .box h5 {
     color: #10c9c3;
     margin: 0;
+    font-weight: bolder;
 }
 
 .box div {
@@ -63,7 +47,7 @@
     border-radius: 50%;
     margin-top: auto;
     margin-bottom: auto;
-    border: 5px solid rgb(92, 85, 85);
+    border: 5px solid #10c9c3;
 }
 
 
