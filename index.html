@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 </head>
 
-<body id="body">
+<body >
 
     <!-- -------------------HEADER-------------  -->
     <header>
@@ -35,7 +35,7 @@
             <li><a href="#secaoSolucoes">Soluções</a></li>
             <li><a href="#ClientesJS">Clientes</a></li>
             <li><a href="#EquipeJS">Equipe</a></li>
-            <li><a href="#ContatoJS">Contatos</a></li>
+            <li><a href="#FooterJS">Contatos</a></li>
         </ul>
         <a href="" class="logo"><img src="./public/img/LogoParaHeader.png" />
     </header>
@@ -283,14 +283,13 @@
             <input class="field-email" name="email" placeholder="E-mail" type="email" required>
             <input class="field-assunto" name="subject" placeholder="Assunto" type="text">
             <textarea class="field-mensagem" name="message" placeholder="Digite sua mensagem aqui" maxlength="600" required></textarea>
-            <input type="hidden" name="redirectTo" value="http://google.com">
             <input class="field-enviar" type="submit" value="Enviar" onclick="handleSubmit(event)">
         </form>
     </div>
     <!-- ---------------------------------------  -->
 
     <!-- ------------------Footer--------------- -->
-    <footer class="main__footer">
+    <footer class="main__footer" id="FooterJS">
 
         <div class="container__footer">
             <div class="container__icons">
